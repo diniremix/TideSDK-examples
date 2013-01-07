@@ -1,0 +1,1 @@
+- Se incorpora Ratchet 1.0.0

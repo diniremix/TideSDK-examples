@@ -1,6 +1,6 @@
 ## Pruebas de rendimiento usando JQuery Mobile y TideSDK ##
 
-La utilidad de estos ejercicios es probar el rendimiento de una aplicacion desarrollada en [JQueryMobile](http://www.jquerymobile.com) sobre [TideSDK](http://tidesdk.org/) a travez de copia y carga de datos usando LocalStorage, animaciones, transiciones y efectos.
+La utilidad de estos ejercicios es probar el rendimiento de una aplicacion desarrollada en [JQueryMobile](http://www.jquerymobile.com) y [Ratchet](http://maker.github.com/ratchet) sobre [TideSDK](http://tidesdk.org/) a travez de copia y carga de datos usando LocalStorage, animaciones, transiciones y efectos.
 
 
 ### Lista de Cambios ###
@@ -17,7 +17,11 @@ Para las pruebas se utilizaran las siguientes Herramientas:
 	* Version **1.1.0**
 	* Version **1.1.1**
 	* Version **1.2.0**
-* LocalStorage
+* [Ratchet](http://maker.github.com/ratchet) **1.0.0**
+* **LocalStorage**
+
+### Historial de Cambios ###
+El archivo **CHANGELOG.txt** en cada carpeta de proyecto, contiene un historial de cambios para cada ejemplo.
 
 ### Licencia ###
 [LGPL-2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
