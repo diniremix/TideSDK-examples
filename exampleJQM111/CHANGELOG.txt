@@ -1,0 +1,2 @@
+- Se incorpora JQuery 1.6.4, 1.7.1
+- Las transiciones desaparecen, mala experiencia visual

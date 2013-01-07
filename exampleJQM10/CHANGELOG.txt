@@ -1,0 +1,2 @@
+- Se incorpora JQuery 1.6.4 
+- Transiciones un poco lentas pero se obervan bien

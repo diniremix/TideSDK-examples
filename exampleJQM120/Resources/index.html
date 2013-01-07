@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title></title>
+	<!-- information-->	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="content-style-type" content="text/css"> 
+	<meta name="keywords" content="">
+	<meta name="description" content=""> 
+	<meta name="author" content="jorge brunal a.k.a. diniremix">
+	<meta name="date" content="01,06,2013"> 
+	<meta name="copyright" content="2012 c.c. http://creativecommons.org/licenses/by-sa/3.0/">
+	<meta http-equiv="expires" content= "thu, 31 dec 2012 00:05:00 est">
+	<meta name="generator" content="sublime text 2">	
+	<!-- jquery mobile local-->	
+	<link rel="stylesheet" href="libs/JQueryMobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<script type="text/javascript" src="libs/JQuery/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="libs/JQueryMobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>	
+</head> 
+<body>
+	<!--[if lt IE 9]>
+		<META HTTP-EQUIV="refresh" CONTENT="0; url=http://www.mozilla.org/es-ES/firefox/"> 
+	<![endif]-->
+
+	<!-- page -->		
+		<div data-role="page" id="mainpage" data-title="Mainpage">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>JQuery Mobile 1.2.0</h1>
+				<a href="#config" data-rel="dialog" data-transition="pop" data-icon="grid" data-iconpos="notext" class="ui-btn-right"></a>
+			</div><!-- /header -->		
+			<div data-role="content" id="content">					
+				<ul data-role="listview" id="listamenu" data-inset="true" data-divider-theme="b">
+					<li data-role="list-divider">Menu Principal</li>
+					<li>
+						<a href="#page2" data-transition="slide">Comprar tiquetes</a>
+					</li>
+					<li>
+						<a href="#" data-transition="slide">Mis millas acumuladas</a>
+					</li>
+					<li>
+						<a href="#" data-transition="slide">Mis tiquetes</a>
+					</li>
+					<li>
+						<a href="#" data-transition="slide">Ver Rutas</a>
+					</li>
+				</ul>
+			</div><!-- /content -->
+			<div data-role="footer" data-id="footer" data-position="fixed" data-theme="a">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#" data-transition="slide" data-icon="search">Buscar</a></li>
+						<li><a href="#" data-transition="pop" data-icon="star">Acerca de</a></li>		
+					</ul>
+				</div><!-- /navbar -->
+			</div>			
+		</div><!-- /page -->
+
+		<!-- page -->		
+		<div data-role="page" id="page2" data-title="Mainpage">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>Pagina 2</h1>
+				<a href="#config" data-rel="dialog" data-transition="pop" data-icon="grid" data-iconpos="notext" class="ui-btn-right"></a>
+			</div><!-- /header -->		
+			<div data-role="content" id="content">					
+				<ul data-role="listview" id="listamenu" data-inset="true" data-divider-theme="b">
+					<li data-role="list-divider">Menu Segundario</li>
+					<li>
+						<a href="#mainpage" data-transition="slide">Regresar</a>
+					</li>
+					<li>
+						<a href="#" data-transition="slide">opcion 2</a>
+					</li>
+					<li>
+						<a href="#" data-transition="slide">Opcion 3</a>
+					</li>
+					<li>
+						<a href="#" data-transition="slide">Opcion 4</a>
+					</li>
+				</ul>
+			</div><!-- /content -->
+			<div data-role="footer" data-id="footer" data-position="fixed" data-theme="a">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#" data-transition="slide" data-icon="search">Buscar</a></li>
+						<li><a href="#" data-transition="pop" data-icon="star">Acerca de</a></li>		
+					</ul>
+				</div><!-- /navbar -->
+			</div>			
+		</div><!-- /page -->
+
+		<!-- page -->
+		<div data-role="page" id="config" data-title="Configuracion">		
+			<div data-role="header" data-position="inline" data-theme="a">				
+				<h1><strong>Error de sesi&oacute;n</strong></h1>				
+			</div>
+			<div data-role="content" data-theme="c">			
+				<div data-role="fieldcontain">
+					<p>El usuario no se encuentra registrado en la base de datos &oacute; los datos proporcionados (<strong>cedula</strong>) no son correctos.</p>
+					<p>Intente con un documento de identificacion valido o registre uno nuevo usando la opcion <strong>Nuevo Usuario.</strong></p>	
+				</div>
+				<p align="center">
+					<a href="#" id="btn-ok" data-theme="a" data-role="button" data-inline="true" data-icon="check" data-mini="true" onclick="javascript:$('.ui-dialog').dialog('close');">Aceptar</a>						
+				</p>
+			</div>
+		</div><!-- /page -->
+
+</body>	
+</html>
